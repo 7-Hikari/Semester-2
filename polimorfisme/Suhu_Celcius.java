@@ -21,6 +21,6 @@ class Mainsuhu {
         float celcius = 23;
         Suhu_Celcius ke_f = new fahreinheit(celcius);
 
-        System.out.printf("Suhu %f°C adalah %.2f Fahreinheit", celcius, ke_f.suhu());
+        System.out.printf("Suhu %.2f°C adalah %.2f Fahreinheit", celcius, ke_f.suhu());
     }
 }
