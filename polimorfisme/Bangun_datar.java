@@ -56,14 +56,14 @@ class segitiga extends Bangun_datar {
 
 class Main {
     public static void main(String[] args) {
-        Bangun_datar bujursangkar = new persegi(4.4f);
+        Bangun_datar segi4 = new persegi(4.4f);
         Bangun_datar lingkar = new lingkaran(91.11f);
         Bangun_datar segi3 = new segitiga(6, 14);
 
         System.out.printf ("Luas persegi\t: %.2f cm\n Keliling persegi\t: %.2f cm"+
         "\n\n Luas lingkaran\t: %.2f cm\n Keliling lingkaran\t: %.2f cm" +
         "\n\n Luas segitiga\t: %.2f cm\n Keliling segitiga\t: %.2f cm",
-        bujursangkar.luas(), bujursangkar.keliling(),
+        segi4.luas(), segi4.keliling(),
         lingkar.luas(), lingkar.keliling(), segi3.luas(),segi3.keliling());
     }
 }
