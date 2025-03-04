@@ -16,7 +16,7 @@ class fahreinheit extends Suhu_Celcius {
     }
 }
 
-class Main {
+class Mainsuhu {
     public static void main(String[] args) {
         float celcius = 23;
         Suhu_Celcius ke_f = new fahreinheit(celcius);
