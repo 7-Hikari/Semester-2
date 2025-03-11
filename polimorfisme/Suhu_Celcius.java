@@ -1,5 +1,3 @@
-package polimorfisme;
-
 public abstract class Suhu_Celcius {
     protected abstract float suhu();
 }

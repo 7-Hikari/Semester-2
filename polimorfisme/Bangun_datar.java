@@ -1,5 +1,3 @@
-package polimorfisme;
-
 public abstract class Bangun_datar {
     protected abstract double luas();
     protected abstract double keliling();
